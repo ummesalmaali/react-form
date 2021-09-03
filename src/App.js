@@ -1,8 +1,9 @@
 import React from 'react'
+import SubmitForm from './components/SubmitForm/SubmitForm'
 
 // import EVENT_HANDLER from './EVENT_HANDLER/index'
 // import Counter from './Counter/Counter'
-import Form from './components/Form/Form.js'
+// import Form from './components/Form/Form.js'
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
     <div>
     {/* <EVENT_HANDLER/>
    <Counter/>  */}
-   <Form/>
+   {/* <Form/> */}
+   <SubmitForm />
     </div>
   );
 }
